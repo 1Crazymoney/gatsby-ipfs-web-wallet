@@ -1,13 +1,19 @@
 #footer{
     width: 100%;
-    max-height: 50px;
-    min-height: 50px;
+    /*max-height: 50px;*/
+    /*min-height: 50px;*/
     background-color: var(--main-color);
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
+
 #footer a{
     color: white;
     font-weight: 400;
+}
+
+#footer li{
+  display: inline;
+  padding: 20px;
 }
